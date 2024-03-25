@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "default" : "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ajay Kumar Pati",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "fractional": "^1.0.0",
+    "parcel": "^2.12.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0"
+  },
+  "resolutions": {
+    "@babel/runtime": "7.18.0"
+  }
+}
